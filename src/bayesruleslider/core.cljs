@@ -66,6 +66,7 @@
 (defn home-page []
   [:div
    [:h2 "Bayes Rule Test Result Calculator"]
+   [:p "To build a little bit more intuition for what's going on here, you can use the sliders below to calculate our posteriors on the test given specified error rates for false positives (what proportion of the time the test sees a sober person and says drunk), false negatives (what proprtion of the time the test sees a drunk person and says sober), and base rate (our prior). Note that the test defaults to the example we worked through above.  Change the parameters and see what happens!"]
    [calculator-component]])
 
 ;; -------------------------
